@@ -84,7 +84,7 @@ echo '{
   "NetworkThrottlingEnabled": "false",
   "NetworkPredictionOptions": "0",
   "AllowedDomainsForApps": "",
-  "DeviceUserAllowlist": ""
+  "DeviceUserAllowlist": "*.example.com"
 }' > /etc/opt/chrome/policies/managed/pollen.json
 
 echo ""
